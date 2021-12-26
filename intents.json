@@ -1,0 +1,135 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "How are you",
+          "Is anyone there?",
+          "Hello",
+          "Good day"
+        ],
+        "responses": [
+          "Hey :-)",
+          "Hello, thanks for visiting",
+          "Hi there, what can I do for you?",
+          "Hi there, how can I help?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye"],
+        "responses": [
+          "See you later, thanks for visiting",
+          "Have a nice day",
+          "Bye! Come back again soon."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      },
+      {
+        "tag": "funny",
+        "patterns": [
+          "Tell me a joke!",
+          "Tell me something funny!",
+          "Do you know a joke?",
+          "Joke jokes joke"
+        ],
+        "responses": [
+          "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+          "What did the buffalo say when his son left for college? Bison.",
+          "Why did the bike fall over? Because it was two tired",
+          "I was driving to disney land and the sign said disneyland left. So I turned around and went back home"
+        ]
+      },
+      {
+        "tag": "function",
+        "patterns": [
+          "What do you do",
+          "What can you do",
+          "What are you capable of"
+        ],
+        "responses": [
+            "I can give basic responses for topics related to my technical skills, greetings/farewells, tell jokes, recommend music, tell you about Furhan and a few hidden gems!"
+        ]
+      },
+      {
+        "tag": "music",
+        "patterns": [
+          "What kind of music do you like",
+          "What music do you listen to",
+          "Who you is your favorite artist",
+          "music music music",
+          "song songs song",
+          "Do you have any music song recommendations",
+          "What is your favorite album"
+        ],
+        "responses": [
+          "Some of my favorite artists are Daft Punk, Playboi Carti, and the Neighborhood. One of my favorite songs is One More Time by Daft Punk",
+          "One of my favorite Albums is Random Access Memories by Daft Punk. Every song in that album is a master piece"
+        ]
+      },
+      {
+        "tag": "PersonalInfo",
+        "patterns": [
+          "Tell me about yourself",
+          "Furhan Furhan Furhan",
+          "Furhan Khan Furhan Khan",
+          "University University School School",
+          "Where are you from",
+          "Where did you go to school"
+        ],
+        "responses": [
+            "I was born and raised in Northern Virginia and graduated from the University of Virginia with a major in Computer Science. Go Hoos!"
+        ]
+      },
+      {
+        "tag": "Hobbies",
+        "patterns": [
+          "What do you do in your spare time",
+          "What are some hobbies that you have",
+          "What do you do for fun",
+          "hobbies hobbies hobby hobbies"
+        ],
+        "responses": [
+            "I love music,coding, traveling and being adventurous",
+            "I love to go to Concerts and DJ in my spare time"
+        ]
+      },
+      {
+        "tag": "TV",
+        "patterns": [
+            "Do you have any TV show recommendations",
+            "TV tv tv Show",
+            "What are some shows you like to watch",
+            "Watch on TV"
+        ],
+        "responses": [
+            "Some of my favorite TV shows are Peaky Blinders, Jojo's Bizarre Adventure, and Family Guy"
+        ]
+      },
+      {
+        "tag": "skills",
+        "patterns": [
+          "What are your technical skills",
+          "What programming languages do you know",
+          "Angular Angular Angular",
+          "Django Django Django",
+          "React React React React",
+          "python javascript java",
+          "Python Python Python",
+          "Do you know angular, django, or react",
+          "program programming",
+          "software software development tools frameworks tool framework tools"
+        ],
+        "responses": [
+          "I have experience in full stack development in both javascript and python.Some of the frameworks I commonly use are React/Next.js, Angular, and Django/flask",
+          "I have a strong understanding in OOP in several languages including javascript,python, java, c/c#/c++ and I am familiar with several frameworks including Next.js, Angular, .Django, and .NET"
+        ]
+      }
+    ]
+  }
