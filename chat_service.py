@@ -23,7 +23,7 @@ def loadData(File = "data.pth"):
 def modelInit(data,device):
     model = NeuralNet(data["input_size"],data['hidden_size'],data['output_size']).to(device)
     modelState = data['model_state']
-    model.load_state_dict(torch.load(modelState, map_location='cpu'))
+    model.load_state_dict(modelState)
     model.eval()
     return model
 
