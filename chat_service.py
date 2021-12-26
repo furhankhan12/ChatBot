@@ -30,7 +30,7 @@ def modelInit(data,device):
 class _ChatBot(NeuralNet):
     def __init__(self):
         super(NeuralNet,self).__init__()
-        self.device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+        self.device = torch.device('cpu')
         self.intents = loadIntents()
         self.data = loadData()
         self.all_words = self.data['all_words']

@@ -65,8 +65,8 @@ numEpocs = 400
 dataset = ChatDataSet()
 train_load = DataLoader(dataset=dataset, batch_size=batchSize, shuffle=True, num_workers=0)
 
-device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-print('Using gpu' if torch.cuda.is_available() else 'Using cpu')
+device = torch.device('cpu')
+#print('Using gpu' if torch.cuda.is_available() else 'Using cpu')
 
 model = NeuralNet(inputSize,hiddenSize,outputSize).to(device)
 criterion = nn.CrossEntropyLoss()
@@ -90,9 +90,10 @@ for epoch in tqdm(range(numEpocs)):
         optimizer.step()
 
     if (epoch + 1) % 100 == 0:
-        print(f'\n epoch {epoch + 1}/{numEpocs}, loss = {loss.item():.4f}')
+        #print(f'\n epoch {epoch + 1}/{numEpocs}, loss = {loss.item():.4f}')
+        pass
 
-print(f'final loss = {loss.item():.4f}')
+#print(f'final loss = {loss.item():.4f}')
 
 
 data = {
@@ -107,4 +108,4 @@ data = {
 FILE = "data.pth"
 torch.save(data,FILE)
 
-print('Training Complete')
+#print('Training Complete')
