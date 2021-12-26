@@ -18,7 +18,7 @@ def loadIntents():
     return intents
 
 def loadData(File = "data.pth"):
-    data = torch.load(File)
+    data = torch.load(File, map_location='cpu')
     return data
 def modelInit(data,device):
     model = NeuralNet(data["input_size"],data['hidden_size'],data['output_size']).to(device)
