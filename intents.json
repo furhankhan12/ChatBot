@@ -81,10 +81,12 @@
           "Furhan Khan Furhan Khan",
           "University University School School",
           "Where are you from",
-          "Where did you go to school"
+          "Where did you go to school",
+          "Where do you work?",
+          "What is your occupation"
         ],
         "responses": [
-            "I was born and raised in Northern Virginia and graduated from the University of Virginia with a major in Computer Science. Go Hoos!"
+            "I was born and raised in Northern Virginia and graduated from the University of Virginia with a major in Computer Science. Go Hoos! Currently, I work as a software engineer for Accenture."
         ]
       },
       {
